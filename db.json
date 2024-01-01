@@ -1,0 +1,270 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "title": "Gıda Hazırlama",
+        "desc": "Gıda hazırlama ürünleri",
+        "image_slug": "https://static.ticimax.cloud/3530/uploads/menuimages/09fda9f5-74a5-4704-b619-4c39bae9c93d.jpg?gt=638397180925622422"
+      },
+      {
+        "id": 2,
+        "title": "Pişirme Grubu",
+        "desc": "Pişirme ürünleri",
+        "image_slug": "https://static.ticimax.cloud/3530/uploads/menuimages/1031785b-790c-421c-9344-2064ee1cb587.jpg?gt=638397180925622422"
+      },
+      {
+        "id": 3,
+        "title": "Kahve",
+        "desc": "Kahve ürünleri",
+        "image_slug": "https://static.ticimax.cloud/3530/uploads/menuimages/7b05a05c-cc77-4b20-877c-ee94497ab1df.jpg?gt=638397180926085388"
+      },
+      {
+        "id": 4,
+        "title": "Beyaz Eşya",
+        "desc": "Beyaz eşya ürünleri",
+        "image_slug": "https://static.ticimax.cloud/3530/uploads/menuimages/327633b0-d5ef-4f20-b63c-66338e58133e.jpg?gt=638397180926085388"
+      }
+    ],
+    "products": [
+      {
+        "id": 3,
+        "title": "Bıçak",
+        "categoryid": 1,
+        "image": "bicak-image.jpg",
+        "gallery": ["image5.jpg", 
+        "image6.jpg"],
+        "price": 20,
+        "filter": ["marka1", "renk1"],
+        "date": "2023-01-08"
+      },
+      {
+        "id": 4,
+        "title": "Rende",
+        "categoryid": 1,
+        "image": "rende-image.jpg",
+        "gallery": ["image7.jpg", "image8.jpg"],
+        "price": 15,
+        "filter": ["marka2", "renk2"],
+        "date": "2023-01-09"
+      },
+      {
+        "id": 5,
+        "title": "Kesme Tahtası",
+        "categoryid": 1,
+        "image": "kesme-tahtasi-image.jpg",
+        "gallery": ["image9.jpg", "image10.jpg"],
+        "price": 25,
+        "filter": ["marka3", "renk3"],
+        "date": "2023-01-10"
+      },
+      {
+        "id": 6,
+        "title": "Tava Tencere Seti",
+        "categoryid": 2,
+        "image": "tava-tencere-seti-image.jpg",
+        "gallery": ["image11.jpg", "image12.jpg"],
+        "price": 80,
+        "filter": ["marka4", "renk4"],
+        "date": "2023-01-11"
+      },
+      {
+        "id": 7,
+        "title": "Kek Kalıpları",
+        "categoryid": 2,
+        "image": "kek-kaliplari-image.jpg",
+        "gallery": ["image13.jpg", "image14.jpg"],
+        "price": 35,
+        "filter": ["marka5", "renk5"],
+        "date": "2023-01-12"
+      },
+      {
+        "id": 8,
+        "title": "Süt Köpürtücü",
+        "categoryid": 3,
+        "image": "sut-kopurtucu-image.jpg",
+        "gallery": ["image15.jpg", "image16.jpg"],
+        "price": 40,
+        "filter": ["marka6", "renk6"],
+        "date": "2023-01-13"
+      },
+      {
+        "id": 9,
+        "title": "Cezve",
+        "categoryid": 3,
+        "image": "cezve-image.jpg",
+        "gallery": ["image17.jpg", "image18.jpg"],
+        "price": 25,
+        "filter": ["marka7", "renk7"],
+        "date": "2023-01-14"
+      },
+      {
+        "id": 10,
+        "title": "Kahve Makinesi",
+        "categoryid": 3,
+        "image": "kahve-makinesi-image.jpg",
+        "gallery": ["image19.jpg", "image20.jpg"],
+        "price": 120,
+        "filter": ["marka8", "renk8"],
+        "date": "2023-01-15"
+      },
+      {
+        "id": 11,
+        "title": "Elektrikli Süpürge",
+        "categoryid": 4,
+        "image": "elektrikli-supurge-image.jpg",
+        "gallery": ["image21.jpg", "image22.jpg"],
+        "price": 150,
+        "filter": ["marka9", "renk9"],
+        "date": "2023-01-16"
+      },
+      {
+        "id": 12,
+        "title": "Buzdolabı",
+        "categoryid": 4,
+        "image": "buzdolabi-image.jpg",
+        "gallery": ["image23.jpg", "image24.jpg"],
+        "price": 500,
+        "filter": ["marka10", "renk10"],
+        "date": "2023-01-17"
+      },
+      {
+        "id": 13,
+        "title": "Fırın",
+        "categoryid": 4,
+        "image": "firin-image.jpg",
+        "gallery": ["image25.jpg", "image26.jpg"],
+        "price": 300,
+        "filter": ["marka11", "renk11"],
+        "date": "2023-01-18"
+      },
+      {
+        "id": 14,
+        "title": "Ocak",
+        "categoryid": 4,
+        "image": "ocak-image.jpg",
+        "gallery": ["image27.jpg", "image28.jpg"],
+        "price": 200,
+        "filter": ["marka12", "renk12"],
+        "date": "2023-01-19"
+      },
+      {
+        "id": 15,
+        "title": "Ütü",
+        "categoryid": 4,
+        "image": "utu-image.jpg",
+        "gallery": ["image29.jpg", "image30.jpg"],
+        "price": 80,
+        "filter": ["marka13", "renk13"],
+        "date": "2023-01-20"
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "password": "hashedpassword123"
+      },
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "password": "hashedpassword456"
+      }
+    ],
+    "brands": [
+      {
+        "id": 1,
+        "title": "WMF",
+        "desc": "High-quality kitchenware",
+        "image": "https://static.ticimax.cloud/cdn-cgi/image/width=337,quality=99/3530/uploads/sayfatasarim/sayfa49/wmf-3c54ae57-b.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Zwilling",
+        "desc": "Premium cutlery and cookware",
+        "image": "https://static.ticimax.cloud/cdn-cgi/image/width=337,quality=99/3530/uploads/sayfatasarim/sayfa49/zwilling-a7f0.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Miele",
+        "desc": "Innovative home appliances",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIDJTyquYBH_KfBrNB1lzP-1ZTWNPeOdajJQ&usqp=CAU"
+      },
+      {
+        "id": 4,
+        "title": "Jura",
+        "desc": "Espresso machines and coffee makers",
+        "image": "https://static.ticimax.cloud/cdn-cgi/image/width=337,quality=99/3530/uploads/sayfatasarim/sayfa49/jura-9e8704ca-a.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Cilio",
+        "desc": "Elegant kitchen accessories",
+        "image": "data:image/jpeg;base64,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"
+      },
+      {
+        "id": 6,
+        "title": "Sage",
+        "desc": "Smart kitchen appliances",
+        "image": "https://static.ticimax.cloud/cdn-cgi/image/width=337,quality=99/3530/uploads/sayfatasarim/sayfa49/sage-bd35bfb4-7.jpg"
+      }
+    ],
+    "wishlist": [
+      {
+        "id": 1,
+        "product_id": 3,
+        "user_id": 1
+      },
+      {
+        "id": 2,
+        "product_id": 6,
+        "user_id": 2
+      },
+      {
+        "id": 3,
+        "product_id": 8,
+        "user_id": 1
+      },
+      {
+        "id": 4,
+        "product_id": 11,
+        "user_id": 2
+      }
+    ],
+    "orders": [
+      {
+        "orderid": 1,
+        "user_id": 1,
+        "products": [
+          {
+            "product_id": 3,
+            "date": "2023-01-05",
+            "status": "Shipped"
+          },
+          {
+            "product_id": 6,
+            "date": "2023-01-06",
+            "status": "Processing"
+          },
+          {
+            "product_id": 8,
+            "date": "2023-01-07",
+            "status": "Processing"
+          }
+        ]
+      },
+      {
+        "orderid": 2,
+        "user_id": 2,
+        "products": [
+          {
+            "product_id": 11,
+            "date": "2023-01-08",
+            "status": "Delivered"
+          }
+        ]
+      }
+    ]
+  }
+  
